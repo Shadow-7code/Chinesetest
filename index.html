@@ -24,6 +24,16 @@
             font-size: 14px;
             margin-bottom: 20px;
         }
+        .top {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .photo {
+            width: 120px;
+            height: 150px;
+            border: 1px solid black;
+        }
         table {
             width: 100%;
             border-collapse: collapse;
@@ -44,18 +54,19 @@
         <div class="title">HSK Test Score Report</div>
         <div class="subtitle">汉语水平考试成绩报告</div>
 
+        <div class="top">
+            <div>
+                <p><b>Name:</b> TANAWAR MOHIT</p>
+                <p><b>Test Level:</b> HSK Level 4</p>
+                <p><b>Test Date:</b> 2026-03-22</p>
+            </div>
+            <img src="photo.jpg" class="photo">
+        </div>
+
         <table>
             <tr>
-                <td>Name</td>
-                <td>MOHIT</td>
-            </tr>
-            <tr>
-                <td>Test Level</td>
-                <td>HSK Level 4</td>
-            </tr>
-            <tr>
-                <td>Test Date</td>
-                <td>2026-3-22</td>
+                <th>Subject</th>
+                <th>Score</th>
             </tr>
             <tr>
                 <td>Listening</td>
