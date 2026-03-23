@@ -2,93 +2,50 @@
 <html>
 <head>
     <title>HSK Test Score Report</title>
-    <style>
-        body {
-            font-family: Arial;
-            background-color: #f5f5f5;
-        }
-        .container {
-            width: 800px;
-            margin: auto;
-            background: white;
-            padding: 20px;
-            border: 1px solid #ccc;
-        }
-        .title {
-            text-align: center;
-            font-size: 22px;
-            font-weight: bold;
-        }
-        .subtitle {
-            text-align: center;
-            font-size: 14px;
-            margin-bottom: 20px;
-        }
-        .top {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-        .photo {
-            width: 120px;
-            height: 150px;
-            border: 1px solid black;
-        }
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-top: 10px;
-        }
-        table, td, th {
-            border: 1px solid black;
-            padding: 8px;
-        }
-        .qr {
-            text-align: right;
-            margin-top: 20px;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <div class="title">HSK Test Score Report</div>
-        <div class="subtitle">汉语水平考试成绩报告</div>
 
-        <div class="top">
-            <div>
-                <p><b>Name:</b> TANAWAR MOHIT</p>
-                <p><b>Test Level:</b> HSK Level 4</p>
-                <p><b>Test Date:</b> 2026-03-22</p>
-            </div>
-            <img src="0C931A67-3264-4946-91B8-1D0655FD0EEF.jpeg" class="photo">
-        </div>
-
-        <table>
-            <tr>
-                <th>Subject</th>
-                <th>Score</th>
-            </tr>
-            <tr>
-                <td>Listening</td>
-                <td>82</td>
-            </tr>
-            <tr>
-                <td>Reading</td>
-                <td>76</td>
-            </tr>
-            <tr>
-                <td>Writing</td>
-                <td>80</td>
-            </tr>
-            <tr>
-                <td>Total</td>
-                <td>238</td>
-            </tr>
-        </table>
-
-        <div class="qr">
-            <img src="qr.png.png" width="120">
+<div class="page">
+    <div class="header">
+        <img src="logo.png" class="logo">
+        <div class="title">
+            <h2>HSK Test Score Report</h2>
+            <p>汉语水平考试成绩报告</p>
         </div>
     </div>
+
+    <div class="info">
+        <div class="left">
+            <p>Name: RAHUL</p>
+            <p>Test Level: HSK Level 4</p>
+            <p>Test Date: 2023-10-15</p>
+            <p>Registration No: 123456789</p>
+        </div>
+        <img src="photo.jpg" class="photo">
+    </div>
+
+    <table>
+        <tr>
+            <th>Listening</th>
+            <th>Reading</th>
+            <th>Writing</th>
+            <th>Total</th>
+        </tr>
+        <tr>
+            <td>82</td>
+            <td>76</td>
+            <td>80</td>
+            <td>238</td>
+        </tr>
+    </table>
+
+    <div class="bottom">
+        <img src="stamp.png" class="stamp">
+        <img src="qr.png.png" class="qr">
+    </div>
+
+</div>
+
 </body>
 </html>
